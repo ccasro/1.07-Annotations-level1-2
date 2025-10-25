@@ -12,4 +12,9 @@ public class OnlineWorker extends Worker {
     public double calculateSalary(int hoursWorkedMonth) {
         return (hoursWorkedMonth * getPriceHour()) + FLAT_RATE_INTERNET;
     }
+
+    @Deprecated
+    public void calculateHours(){
+        System.out.println("Deprecated method");
+    }
 }

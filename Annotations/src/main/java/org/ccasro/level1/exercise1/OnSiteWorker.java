@@ -12,4 +12,9 @@ public class OnSiteWorker extends Worker {
     public double calculateSalary(int hoursWorkedMonth) {
         return (hoursWorkedMonth * getPriceHour()) + gasoline;
     }
+
+    @Deprecated
+    public void showGasoline(){
+        System.out.println(gasoline);
+    }
 }
