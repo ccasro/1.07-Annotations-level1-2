@@ -3,10 +3,10 @@ Annotations
 
 ## 📄 Description
 
-- Level1 - Create a class hierarchy to practice method overriding with @Override. Add deprecated methods 
+- **Level1** - Create a class hierarchy to practice method overriding with @Override. Add deprecated methods 
   using @Deprecated and suppress warnings with @SuppressWarnings.
-- Level2 - Implement a custom annotation to serialize Java objects into JSON files, specifying the output directory.
-- Level3 - Use Java Reflection to read and demonstrate the custom annotation created in Level 2 at runtime.
+- **Level**2 - Implement a custom annotation to serialize Java objects into JSON files, specifying the output directory.
+- **Level3** - Use Java Reflection to read and demonstrate the custom annotation created in Level 2 at runtime.
 
 ## 💻 Technologies used
 
